@@ -4,6 +4,7 @@
  - [shc-data/](https://drive.google.com/drive/folders/16LuPxgOF8jtt3KbiksQpmYiFpxCJ2jiy)
    - [ngram\_word2vec](https://drive.usercontent.google.com/download?id=1FvaSSiuC9YSa8p-sB9nv88i0_3GXpc75)：NLP2024の原稿（4.1節）で使用した単語分散表現の学習結果。
    - [svmlight\_ngram](https://drive.usercontent.google.com/download?id=1x6TDP8BosoVqwKbcN2l-INbXxe1FD_Ca)：加工した統計情報。
+ - （参考）[chj-shc\_svmlight\_ngram](https://bit.ly/3HT96Ii)：近現代雑誌コーパス（CHJ・SHC）を加工した統計情報。2022年時点のもの。
 
 ## 説明
 「昭和・平成書き言葉コーパス」の統計情報を`ngram`・`svmlight`形式で加工。  
@@ -50,5 +51,6 @@ w2v.wv.most_similar("通信")
 
 ## 参照
 ```
+近藤 明日子, 相田 太一, 小木曽 智信. 近現代雑誌通時コーパスの語彙統計情報の公開. 言語処理学会第28回年次大会 (NLP2022), pp.1695-1698.   
 相田 太一, 近藤 明日子, 小木曽 智信. 「昭和・平成書き言葉コーパス」の語彙統計情報の公開. 言語処理学会第30回年次大会 (NLP2024).
 ```
