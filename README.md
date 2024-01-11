@@ -6,7 +6,7 @@
    - [svmlight\_ngram](https://drive.usercontent.google.com/download?id=1x6TDP8BosoVqwKbcN2l-INbXxe1FD_Ca)：加工した統計情報。
  - （参考）[chj-shc\_svmlight\_ngram](https://bit.ly/3HT96Ii)：近現代雑誌コーパス（CHJ雑誌・SHC雑誌）を加工した統計情報。2022年時点のもの。
 
-## 説明zassi 
+## 説明 
 「昭和・平成書き言葉コーパス」の統計情報を`ngram`・`svmlight`形式で加工。  
 雑誌（`magazine`）、書籍（`bestseller`）、新聞（`newspaper`）に分けて公開。
  - `ngram`：単語 / 語彙素ID の 1~5 gram とその頻度を `tab` 区切りで出力
@@ -50,9 +50,6 @@ w2v.wv.most_similar("通信")
 ```
 
 ## 参照
-```
-近藤 明日子, 相田 太一, 小木曽 智信. 近現代雑誌通時コーパスの語彙統計情報の公開. 言語処理学会第28回年次大会 (NLP2022), pp.1695-1698.   
-相田 太一, 近藤 明日子, 小木曽 智信. 「昭和・平成書き言葉コーパス」の語彙統計情報の公開. 言語処理学会第30回年次大会 (NLP2024).
-小木曽 智信, 近藤 明日子, 髙橋 雄太, 間淵 洋子.「『昭和・平成書き言葉コーパス』の設計・構築・公開」『情報処理学会誌』65(2). https://clrd.ninjal.ac.jp/shc/doc/IPSJ_SHC_preprint.pdf
-
-```
+> 近藤 明日子, 相田 太一, 小木曽 智信. 近現代雑誌通時コーパスの語彙統計情報の公開. 言語処理学会第28回年次大会 (NLP2022), pp.1695-1698. https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/PT4-1.pdf  
+> 相田 太一, 近藤 明日子, 小木曽 智信. 「昭和・平成書き言葉コーパス」の語彙統計情報の公開. 言語処理学会第30回年次大会 (NLP2024).  
+> 小木曽 智信, 近藤 明日子, 髙橋 雄太, 間淵 洋子.「『昭和・平成書き言葉コーパス』の設計・構築・公開」『情報処理学会誌』65(2). https://clrd.ninjal.ac.jp/shc/doc/IPSJ_SHC_preprint.pdf
