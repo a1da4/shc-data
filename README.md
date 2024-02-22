@@ -25,7 +25,7 @@
 0	0:1340 1:243 4:19 5:20 6:8 ...
 ```
 
-また、単語5-gramで学習した単語分散表現（Word2Vec, Skip-Gram with Negative Sampling）も公開。
+また、単語5-gramで学習した単語分散表現（Word2Vec, ~~Skip-Gram with Negative Sampling~~ CBoW）も公開。
  - 昭和（1933年〜1989年）
    - `showa_all.model`：すべての分野を結合して学習
    - `showa_bestseller.model`：書籍のみを使用して学習
